@@ -25,12 +25,10 @@ while playing:
     else:
         print("You Lose . . .")
 
-    #retry = input("Play again ? (Y/N): ").upper()
-    #if not retry == "Y":
-        #playing = False
-    #############shorter code###########
+    
     if not input("Play Again ? (Y/N): ").upper() == "Y":
         playing = False
 
 print()
+
 print("Thanks for Playing !!")
