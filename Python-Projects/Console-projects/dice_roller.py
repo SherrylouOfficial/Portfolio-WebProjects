@@ -1,6 +1,5 @@
 import random
-# ●, ┌, ─, ┐, │, └, ┘
-#used as reference
+
 #"┌─────────┐"
 #"│         │"
 #"│    ●    │"
@@ -50,12 +49,6 @@ number_dice = int(input("Dice ? 1 to 6: "))
 for x in range(number_dice):
     dice.append(random.randint(1, 6))
 
-############verical output#####################
-#for x in range(number_dice):
-    #    for rays in dice_pic.get(dice[x]):
-#        print(rays)
-###############################################
-
 #############horizontal output#################
 for rays in range(5):
     for x in dice:
@@ -69,3 +62,4 @@ for x in dice:
 
 
 print(f"Total: {total}")
+
