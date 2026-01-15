@@ -27,7 +27,7 @@ $(function () {
                 if (value.indexOf(symbol) > -1) {
                     containsSymbol = true;
 
-                    // We found a symbol. Therefore, return false to exit $.each early (short-circuit).
+                    // symbol, return false to exit $.each early.
                     return false;
                 }
             });
@@ -179,4 +179,5 @@ $(function () {
 
         $.error("Method " + method + " does not exist on jQuery.passwordStrength");
     };
+
 });
