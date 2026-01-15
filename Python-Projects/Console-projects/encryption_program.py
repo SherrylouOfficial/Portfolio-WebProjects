@@ -7,9 +7,6 @@ key = words.copy()
 
 random.shuffle(key)
 
-#print(words)
-#print(key)
-
 #encryption
 print("___________Encryption Maker___________")
 org = input("Enter: ")
@@ -33,5 +30,6 @@ for letter in cip:
 
 print(cip)
 print(org)
+
 
 # note encrypted words are at RANDOM
