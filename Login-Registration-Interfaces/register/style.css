@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background: url(back1.jpg) no-repeat;
+    background: url(back.jpg) no-repeat;
     background-size: 250vh 100vh;
     background-position: bottom;
     display: flex;
@@ -260,4 +260,5 @@ header {
 
 .login-register p a:hover {
     text-decoration: underline;
+
 }
