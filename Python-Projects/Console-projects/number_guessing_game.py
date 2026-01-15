@@ -1,11 +1,3 @@
-#this print random number 1-19#
-#import random
-#number = random.randint(0, 20)
-
-#print(number)
-
-###########################################
-
 import random
 lowest = 1
 highest = 100
@@ -25,4 +17,5 @@ while True:
         print(f"{guess} is the Right number ! ! !")
         break
 print("______________________________________")
+
 print(f"This round took you {guesses} tries")
