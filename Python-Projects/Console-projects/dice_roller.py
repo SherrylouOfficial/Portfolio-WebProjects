@@ -67,4 +67,5 @@ for x in dice:
 # total will add all dice variables
 
 
+
 print(f"Total: {total}")
