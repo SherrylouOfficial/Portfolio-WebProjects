@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#591da9, #262335);
+    color: #3c213c;
+}
+
+/* CONTAINER */
+.container {
+    margin: 0 15px;
+}
+
+/* FORM BOX  */
+.form-box {
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(60, 33, 183, 0.7);
+    background: linear-gradient(#cb98ed, #cfcbd2);
+    display: none;
+}
+
+/* ACTIVE LOGIN FORM  */
+.form-box.active {
+    display: block;
+}
+
+
+/* H2 TAG  */
+h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* INPUT AND SELECT*/
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    background: #efdaff;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #3c213c;
+    margin-bottom: 20px;
+}
+
+/* BUTTON  */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #591da9;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #efdaff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+/* HOVER EFFECT */
+button:hover {
+    background: #4d1793;
+}
+
+/* P */
+p {
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p a {
+    color: #591da9;
+    text-decoration: none;
+}
+
+/* HOVER EFFECTS FOR P A  */
+p a:hover {
+    text-decoration: underline;
+}
+
+
+/* ERROR MESSAGE STYLING */
+.error-message {
+    padding: 12px;
+    background: #ff94b2;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #660f24;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ADMIN AND USER PAGES */
+h1 {
+    font-size: 50px;
+}
+
+span {
+    color: #f2e6ee;
+    text-shadow: 0 0 6px #0b0b0b;
+}
+
+.box p {
+    font-size: 22px;
+}
+
+.box button {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
